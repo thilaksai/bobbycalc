@@ -1,6 +1,7 @@
 package com.example;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.applet.*;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -52,6 +53,7 @@ public class Calculator extends HttpServlet {
           }
         }
         public int add(int a, int b) {
+		int ret = a + b ;
             return a + b ;
         }
         
